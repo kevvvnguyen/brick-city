@@ -1,72 +1,104 @@
-# kenjis-corner
-Kenji's Corner. Visit Keni's Corner at https://kenjiscorner.com
-# Getting Started with Create React App
+[![Netlify Status](https://api.netlify.com/api/v1/badges/47004bd3-e920-4e18-a795-e4f79f4e0fd0/deploy-status)](https://app.netlify.com/sites/nba-react/deploys)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# NBA React
 
-## Available Scripts
+<img src="https://raw.githubusercontent.com/moisestech/nba-react/master/public/assets/nba-react-logo.png" width="150px" />
 
-In the project directory, you can run:
+Basketball League React Application, displaying Teams, Players, and Game Articles with unique URL Routing Ids.
 
-### `yarn start`
+## 👁️‍🗨️ Project Preview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+[Home](https://raw.githubusercontent.com/moisestech/nba-react/master/public/assets/nba_react_router_1.png)
+![](https://user-images.githubusercontent.com/2933430/82761753-f994a380-9db9-11ea-98af-922c37266d46.png)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+[Players](https://raw.githubusercontent.com/moisestech/nba-react/master/public/assets/nba_react_router_2.png)
+![](https://user-images.githubusercontent.com/2933430/82761748-f7cae000-9db9-11ea-9cce-8e6ab5dcc2c7.png)
 
-### `yarn test`
+[Teams](https://raw.githubusercontent.com/moisestech/nba-react/master/public/assets/nba_react_router_3.png)
+![](https://user-images.githubusercontent.com/2933430/82761747-f699b300-9db9-11ea-9e59-a79c65fd6536.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+[Articles](https://raw.githubusercontent.com/moisestech/nba-react/master/public/assets/nba_react_router_4.png)
+![](https://user-images.githubusercontent.com/2933430/82761744-f39ec280-9db9-11ea-954d-33feb6bfc706.png)
 
-### `yarn build`
+## 🗺 URL Tree
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+├── /                   #Home
+├── /players            #Players
+├── /players/:playerId  #Player:ID
+├── /teams/             #Teams
+├── /team/:teamId       #Team:ID
+├── /articles/          #Articles
+├── /articles/          #Article:ID
+└── /*                  #404
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🌿 Application Tree
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+├── README.md
+├── package.json
+├── 📁 public
+│   ├── _redirects
+│   └── index.html
+├── src
+│   ├── 📁 components
+│   │   ├── App
+│   │   │   └── index.js
+│   │   ├── Articles
+│   │   │   └── index.js
+│   │   ├── Home
+│   │   │   └── index.js
+│   │   ├── Loading
+│   │   │   └── index.js
+│   │   ├── NavBar
+│   │   │   └── index.js
+│   │   ├── Players
+│   │   │   ├── components
+│   │   │   │   └── Player
+│   │   │   │       └── index.js
+│   │   │   └── index.js
+│   │   ├── Sidebar
+│   │   │   └── index.js
+│   │   ├── TeamLogo
+│   │   │   └── index.js
+│   │   ├── TeamPage
+│   │   │   ├── components
+│   │   │   │   ├── ArticleList
+│   │   │   │   │   └── index.js
+│   │   │   │   ├── Championships
+│   │   │   │   │   └── index.js
+│   │   │   │   └── Stats
+│   │   │   │       └── index.js
+│   │   │   └── index.js
+│   │   └── Teams
+│   │       ├── components
+│   │       │   └── Team
+│   │       │       └── index.js
+│   │       └── index.js
+│   ├── 📁 hooks
+│   │   ├── useArticle.js
+│   │   ├── useFetch.js
+│   │   ├── usePlayers.js
+│   │   ├── useTeam.js
+│   │   ├── useTeamNames.js
+│   │   └── useTeamsArticles.js
+│   ├── index.css
+│   └── index.js
+└── webpack.config.js
+```
 
-### `yarn eject`
+## ⛰️ Roadmap
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+NBA API Suport
+[nba.com/teams](https://www.nba.com/teams)  
+[nba.com/player](https://www.nba.com/players)  
+[nba.com/player/:name](https://www.nba.com/players/)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 📝 Todos
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Dark / Light Theme
+- Fix Route Params
+- Favicon
+- Upgrade to React 17
+- Add Routing Animation
