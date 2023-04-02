@@ -30,7 +30,7 @@ export default function usePlayers(team) {
             "id": "johnny-ramirez"
         },
         {
-            "name": "Jon Galvorian",
+            "name": "Jon Santos",
             "position": "Guard",
             "teamId": "Brick City",
             "number": 93,
@@ -57,7 +57,7 @@ export default function usePlayers(team) {
             "name": "Matthew Mendoza",
             "position": "Guard",
             "teamId": "Brick City",
-            "number": 32,
+            "number": 10,
             "avatar": "https://res.cloudinary.com/uidotdev/image/twitter_name/brindelle",
             "rpg": 0,
             "spg": 0,
@@ -69,7 +69,7 @@ export default function usePlayers(team) {
             "name": "Michael Mendoza",
             "position": "Forward",
             "teamId": "Brick City",
-            "number": 10,
+            "number": 32,
             "avatar": "https://res.cloudinary.com/uidotdev/image/twitter_name/ralex1993",
             "rpg": 0,
             "spg": 0,
