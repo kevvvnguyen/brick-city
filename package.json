@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "yarn webpack-dev-server",
-    "build": "react-scripts build",
+    "build": "NODE_ENV='production' webpack",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
