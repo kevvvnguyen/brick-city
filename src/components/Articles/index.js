@@ -21,7 +21,6 @@ function Article() {
           <p>{article.body}</p>
         </article>
       </div>
-      Article = {teamId} - {articleId}
     </div>
   );
 }

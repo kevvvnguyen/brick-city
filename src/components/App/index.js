@@ -35,7 +35,7 @@ export default function App() {
             <TeamPage />
           </Route>
 
-          <Route path="/:teamId/articles">
+          <Route path="/brick-city/articles">
             <Articles />
           </Route>
 

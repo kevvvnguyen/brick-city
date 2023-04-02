@@ -29,11 +29,11 @@ export default function Game({ games }) {
 
   return (
     <div className="panel">
-      <img
+      {/* <img
         className="avatar"
         src={`${game.avatar}`}
         alt={`${game.name}'s avatar`}
-      />
+      /> */}
       <h1 className="medium-header">{game.name}</h1>
       <h3 className="header">Game #{game.number}</h3>
       <div className="row">

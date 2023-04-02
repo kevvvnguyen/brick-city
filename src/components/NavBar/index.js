@@ -9,6 +9,7 @@ export default function NavBar() {
         <Link to="/players">Players</Link>
         <Link to="/brick-city">Team</Link>
         <Link to="/games">Games</Link>
+        <Link to="/brick-city/articles">Articles</Link>
       </nav>
     </div>
   );
