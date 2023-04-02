@@ -32,7 +32,9 @@
   "homepage": "https://github.com/kevvvnguyen/brick-city#readme",
   "dependencies": {
     "babel-plugin-syntax-dynamic-import": "^6.18.0",
-    "prop-types": "^15.7.2",
+    "postcss": "^8.4.21",
+    "postcss-flexbugs-fixes": "^5.0.2",
+    "prop-types": "^15.8.1",
     "query-string": "^6.13.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
@@ -48,10 +50,23 @@
     "babel-loader": "^8.1.0",
     "copy-webpack-plugin": "^6.0.4",
     "css-loader": "^4.2.2",
+    "file-loader": "^6.2.0",
     "html-webpack-plugin": "^4.3.0",
     "style-loader": "^1.2.1",
     "webpack": "^4.44.1",
     "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.11.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
