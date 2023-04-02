@@ -290,4 +290,8 @@ li {
     margin-right: auto;
     width: 50%;
   }
+
+  .text-center {
+    text-align: center;
+  }
 }

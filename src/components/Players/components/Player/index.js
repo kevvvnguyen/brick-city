@@ -41,7 +41,7 @@ export default function Players({ players }) {
           <li>
             Team
             <div>
-              <Link to={`/${player.teamId}`}>
+              <Link to={`/brick-city`}>
                 {player.teamId[0].toUpperCase() + player.teamId.slice(1)}
               </Link>
             </div>

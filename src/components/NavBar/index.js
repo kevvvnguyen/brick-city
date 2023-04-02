@@ -7,7 +7,8 @@ export default function NavBar() {
       <Link to="/">Home</Link>
       <nav className="nav-links">
         <Link to="/players">Players</Link>
-        <Link to="/teams">Teams</Link>
+        <Link to="/brick-city">Team</Link>
+        <Link to="/games">Games</Link>
       </nav>
     </div>
   );

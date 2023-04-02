@@ -15,7 +15,7 @@ export default function Teams() {
 
   return (
     <div className="container two-column">
-      <Sidebar title="Teams" list={teamNames} />
+      {/* <Sidebar title="Teams" list={teamNames} /> */}
 
       <Switch>
         <Route path={`${path}/:teamId`}>

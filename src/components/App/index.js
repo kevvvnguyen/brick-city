@@ -6,6 +6,7 @@ import Teams from "../Teams";
 import NavBar from "../NavBar";
 import TeamPage from "../TeamPage";
 import Articles from "../Articles";
+import Games from "../Games";
 
 export default function App() {
   return (
@@ -20,6 +21,10 @@ export default function App() {
 
           <Route path="/players">
             <Players />
+          </Route>
+
+          <Route path="/games">
+            <Games />
           </Route>
 
           <Route path="/teams">

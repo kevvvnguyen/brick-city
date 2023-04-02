@@ -1,26 +1,29 @@
 import useFetch from "./useFetch";
 
-export default function usePlayers(team) {
-  console.log(useFetch("/players", "POST", JSON.stringify({ team })))
-
+export default function useGames(team) {
   let teamObject = {
     "response": [
         {
-            "name": "Anthony Morales",
+            "name": "Preseason vs Temp Name",
             "position": "Forward/Center",
-            "teamId": "Brick City",
-            "number": 0,
+            "gameId": "preseason-vs-temp-name",
+            "number": 1,
             "avatar": "https://res.cloudinary.com/uidotdev/image/twitter_name/tylermcginnis",
             "rpg": 0,
             "spg": 0,
             "apg": 0,
             "ppg": 0,
-            "id": "anthony-morales"
+            "id": "preseason-vs-temp-name",
+            "threePercentage": 0,
+            "fgPercentage": 0,
+            "ftPercentage": 0,
+            "score": 0,
+
         },
         {
-            "name": "Johnny Ramirez",
+            "name": "Game 1 vs Temp name",
             "position": "Forward/Center",
-            "teamId": "Brick City",
+            "gameId": "1",
             "number": 1,
             "avatar": "https://res.cloudinary.com/uidotdev/image/twitter_name/benadam11",
             "rpg": 0,
@@ -30,9 +33,9 @@ export default function usePlayers(team) {
             "id": "johnny-ramirez"
         },
         {
-            "name": "Jon Galvorian",
+            "name": "Game 2 vs Temp name",
             "position": "Guard",
-            "teamId": "Brick City",
+            "gameId": "2",
             "number": 93,
             "avatar": "https://res.cloudinary.com/uidotdev/image/twitter_name/vlh",
             "rpg": 0,
@@ -42,9 +45,9 @@ export default function usePlayers(team) {
             "id": "jon-galvaorian"
         },
         {
-            "name": "Kevin Nguyen",
+            "name": "Game 3 vs Temp name",
             "position": "Guard",
-            "teamId": "Brick City",
+            "gameId": "3",
             "number": 19,
             "avatar": "https://res.cloudinary.com/uidotdev/image/twitter_name/dan_abramov",
             "rpg": 0,
@@ -54,9 +57,9 @@ export default function usePlayers(team) {
             "id": "kevin-nguyen"
         },
         {
-            "name": "Matthew Mendoza",
+            "name": "Game 4 vs Temp namea",
             "position": "Guard",
-            "teamId": "Brick City",
+            "gameId": "4",
             "number": 32,
             "avatar": "https://res.cloudinary.com/uidotdev/image/twitter_name/brindelle",
             "rpg": 0,
@@ -66,9 +69,9 @@ export default function usePlayers(team) {
             "id": "matthew-mendoza"
         },
         {
-            "name": "Michael Mendoza",
+            "name": "Game 5 vs Temp name",
             "position": "Forward",
-            "teamId": "Brick City",
+            "gameId": "5",
             "number": 10,
             "avatar": "https://res.cloudinary.com/uidotdev/image/twitter_name/ralex1993",
             "rpg": 0,
@@ -78,9 +81,9 @@ export default function usePlayers(team) {
             "id": "michael-mendoza"
         },
         {
-            "name": "Parth Patel",
+            "name": "Game 6 vs Temp name",
             "position": "Guard",
-            "teamId": "Brick City",
+            "gameId": "6",
             "number": 28,
             "avatar": "https://res.cloudinary.com/uidotdev/image/twitter_name/floydophone",
             "rpg": 0,
@@ -90,9 +93,21 @@ export default function usePlayers(team) {
             "id": "parth-patel"
         },
         {
-            "name": "Ryan Tang",
+            "name": "Game 7 vs Temp name",
             "position": "Guard",
-            "teamId": "Brick City",
+            "gameId": "7",
+            "number": 8,
+            "avatar": "https://res.cloudinary.com/uidotdev/image/twitter_name/sarah_edo",
+            "rpg": 0,
+            "spg": 0,
+            "apg": 0,
+            "ppg": 0,
+            "id": "ryan-tang"
+        },
+        {
+            "name": "Game 8 vs Temp name",
+            "position": "Guard",
+            "gameId": "8",
             "number": 8,
             "avatar": "https://res.cloudinary.com/uidotdev/image/twitter_name/sarah_edo",
             "rpg": 0,
@@ -104,8 +119,6 @@ export default function usePlayers(team) {
     ],
     "loading": false
 }
-
-  console.log(teamObject);
 
 
   return teamObject;

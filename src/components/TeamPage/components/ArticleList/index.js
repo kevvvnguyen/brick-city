@@ -5,7 +5,7 @@ import slug from "slug";
 export default function ArticleList({ articles, path }) {
   return (
     <>
-      <h2 className="header">Articles</h2>
+      <h2 className="header">Game notes</h2>
       <ul className="articles">
         {articles.map((article) => (
           <li key={article.id}>

@@ -12,6 +12,7 @@ import Championships from "./components/Championships";
 import Stats from "./components/Stats";
 import ArticleList from "./components/ArticleList";
 import Loading from "../Loading";
+import logo from '../../logo.png';
 
 function useTeamPageData(teamId) {
   const { response: teamNames, loading: loadingTeamNames } = useTeamNames();
@@ -43,11 +44,12 @@ export default function TeamPage() {
   }
   return (
     <div className="panel">
-      <TeamLogo id={teamId} />
 
-      <h1 className="medium-header">{team.name}</h1>
+      <img className="center" src={logo}/>
+
+      {/* <h1 className="medium-header">{team.name}</h1> */}
       <h4 style={{ margin: 5 }}>
-        <Link to={{ pathname: "/players", search: `teamId=${teamId}` }}>
+        <Link to={{ pathname: "/players" }}>
           View Roster
         </Link>
       </h4>
