@@ -6,37 +6,18 @@ export default function useArticle(args) {
 
   let articleObject = {
     "response": {
-        "title": "title",
+        "title": "Brick City Lives Up To Their Name in Preseason Loss",
         "body": `
-        LOREM IPSUM
-        FONT GENERATOR
-        IMAGES
-        PLUGINS
-        GENERATORS
-        ENGLISH
-        Lorem Ipsum Generator
-        Generate Lorem Ipsum placeholder text. Select the number of characters, words, sentences or paragraphs, and hit generate!
-        
-        GENERATED LOREM IPSUM
-        2
-         
-        PARAGRAPHS
-         
-        COPY 
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae aliquet nec ullamcorper sit amet. Auctor eu augue ut lectus arcu bibendum. Nisi scelerisque eu ultrices vitae auctor eu. Adipiscing at in tellus integer feugiat scelerisque. Etiam sit amet nisl purus in mollis. Commodo odio aenean sed adipiscing diam donec adipiscing tristique. Turpis egestas pretium aenean pharetra. Cursus sit amet dictum sit amet. Pharetra convallis posuere morbi leo urna molestie. Amet est placerat in egestas erat imperdiet sed euismod nisi. Tellus at urna condimentum mattis pellentesque id nibh tortor. Odio facilisis mauris sit amet. Purus viverra accumsan in nisl nisi scelerisque eu. Massa eget egestas purus viverra accumsan in nisl nisi. Aliquet eget sit amet tellus cras adipiscing. Praesent elementum facilisis leo vel fringilla est ullamcorper. Eleifend donec pretium vulputate sapien nec sagittis aliquam.
-        
-        Tristique senectus et netus et malesuada fames. Nibh nisl condimentum id venenatis a condimentum. Etiam tempor orci eu lobortis elementum. Nunc sed blandit libero volutpat sed. Magna fringilla urna porttitor rhoncus dolor. Id diam maecenas ultricies mi eget mauris pharetra et. Elementum pulvinar etiam non quam. Parturient montes nascetur ridiculus mus mauris vitae. Ut ornare lectus sit amet est. Velit ut tortor pretium viverra suspendisse potenti nullam ac tortor. Egestas purus viverra accumsan in.
-        
-        © 2015 — 2023
-        PRIVACY POLICY
-        SITEMAP
-        FONT GENERATOR
-        IMAGES
-        PLUGINS
-        GENERATORS
-        SHARE THE LOREM
-        WA
-        SAI
+        Brick City opened up its inaugural game with a 49-36 loss to the Big Boyz. Brick City failed to score in the fourth quarter after only trailing by 4 heading into the final 10 minutes of the contest. 
+
+        Brick City relied on the three ball, with the majority of their points coming from long balls from Johnny Ramirez, Kevin Nguyen, and Matthew Mendoza. Mendoza had a team-high 15 points, followed by 11 from Nguyen, and Ramirez added nine on three long balls. 
+
+        After trailing in the first quarter, Brick City switched to a 2-3 zone and quickly took the lead after the Big Boyz inability to shoot the deep ball. After having all the momentum after leading at halftime, the Big Boyz  retook the lead and never looked back. 
+
+        Despite the loss, Brick City took some positives from the contest, “we stayed in the game but just couldn’t get shots to fall in the 4th quarter,” said team captain Nguyen. "I expect us to play much better with a full squad and a few more practices before the regular season begins” Nguyen said.
+
+        Brick City will have a full roster once they make their season debut on April 11th at Grijalva Park Sports Center in Orange.
+
         `,
     },
     "loading": false
